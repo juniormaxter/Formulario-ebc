@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário de Contatos ebac</title>
+<link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Formulário de Contatos</h2>
+
+    <form id="contactForm">
+        <input type="text" id="name" name="name" required placeholder="Nome completo" />   
+        <input type="text" id="phone" name="phone" equired placeholder="Telefone" min="0" max="10" />
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <table id="contactTable">
+        <thead>
+            <tr>
+                <h2>Tabela de contatos</h2>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aqui serão adicionadas as linhas de contatos -->
+        </tbody>
+    </table>
+
+</div>
+
+<script src="./main.js"></script>
+
+
+</body>
+</html>
